@@ -11,5 +11,6 @@ Sur Kali, netplan n'éxiste pas, il faut donc configurer le réseaux à l'aide d
 Avec cette commande : sudo nmcli con add type ethernet ifname eth0 con-name eth0-manuel ipv4.addresses 192.168.56.102/24 ipv4.gateway 192.168.56.1 ipv4.dns "8.8.8.8 8.8.4.4" ipv4.method manual
 sudo nmcli con up eth0-manuel
 J'ai pu configurer l'IP souhaité aur KALI, avec un ping sur ma machine Ubuntu, je confirme que la connexion est établi entre les deux machines.
+Je fais la même chose avec Windows, je ping entre les trois machines, tout fonctionne. Je vérifie également que je n'ai pas accès à internet avec un ping 8.8.8.8.
 
 Étape 3 : 
