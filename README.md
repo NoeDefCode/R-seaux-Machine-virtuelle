@@ -14,3 +14,4 @@ J'ai pu configurer l'IP souhaité aur KALI, avec un ping sur ma machine Ubuntu, 
 Je fais la même chose avec Windows, je ping entre les trois machines, tout fonctionne. Je vérifie également que je n'ai pas accès à internet avec un ping 8.8.8.8.
 
 Étape 3 : 
+Création d'un serveur avec Samba sur Ubuntu.
